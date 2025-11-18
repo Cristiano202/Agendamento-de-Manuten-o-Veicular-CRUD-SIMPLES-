@@ -1,0 +1,1 @@
+# CRUD Card Projeto\n\nProjeto simples com backend em Node/Express e front em static HTML/JS.\n\nEstrutura:\n- `src/` - server e DB simples\n- `public/` - frontend (index.html, app.js, styles.css)\n- `data/items.json` - armazenamento simples em JSON\n\nInstruções:\n1. npm install\n2. npm run start (ou npm run dev)\n3. Abrir http://localhost:3000\n

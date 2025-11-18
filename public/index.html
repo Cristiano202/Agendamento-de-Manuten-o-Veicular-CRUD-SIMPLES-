@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CRUD Card Simples</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main>
+    <h1>🚗 Agendamento de Manutenção Veicular</h1>
+
+    <section class="form">
+      <input id="veiculo" placeholder="Veículo (ex: Fiat Punto - ABC1234)" />
+      <input id="tipo" placeholder="Tipo de serviço (ex: Troca de óleo)" />
+      <input id="data" type="date" />
+      <input id="quilometragem" placeholder="Quilometragem" />
+      <button id="add">+ Agendar</button>
+    </section>
+
+    <div class="stats">
+      <span id="total">Total: 0</span>
+      <span id="agendados">Agendados: 0</span>
+      <span id="concluidos">Concluídos: 0</span>
+    </div>
+
+    <section id="cards" class="cards"></section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1763463822509",
+    "veiculo": "Fiat Punto 1.4 - ABC1234",
+    "tipo": "Troca de óleo",
+    "data": "2025-11-25",
+    "quilometragem": "50000 km",
+    "status": "agendado"
+  },
+  {
+    "id": "1763464086763",
+    "veiculo": "Toyota Corolla - XYZ5678",
+    "tipo": "Revisão completa",
+    "data": "2025-11-30",
+    "quilometragem": "80000 km",
+    "status": "concluído"
+  }
+]
